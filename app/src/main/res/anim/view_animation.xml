@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <scale
+        android:interpolator="@android:anim/linear_interpolator"
+        android:fromXScale="4.0"
+        android:toXScale="1.25"
+        android:fromYScale="1.0"
+        android:toYScale="4.25"
+        android:pivotX="100%"
+        android:pivotY="100%"
+        android:repeatMode="restart"
+        android:repeatCount="1"
+        android:duration="500"
+        />
+    <rotate
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+        android:fromDegrees="0"
+        android:toDegrees="360"
+        android:pivotX="100%"
+        android:pivotY="100%"
+        android:duration="500"
+        android:repeatMode="restart"
+        android:repeatCount="1"
+        android:startOffset="500"
+        />
+</set>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--    <?xml version="1.0" encoding="utf-8"?>-->
+<!--<set xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--<scale-->
+<!--    android:interpolator="@android:anim/linear_interpolator"-->
+<!--    android:fromXScale="1.0"-->
+<!--    android:toXScale="1.25"-->
+<!--    android:fromYScale="1.0"-->
+<!--    android:toYScale="1.25"-->
+<!--    android:pivotX="50%"-->
+<!--    android:pivotY="50%"-->
+<!--    android:repeatMode="reverse"-->
+<!--    android:repeatCount="3"-->
+<!--    android:duration="500"-->
+<!--    />-->
+<!--<rotate-->
+<!--    android:interpolator="@android:anim/accelerate_decelerate_interpolator"-->
+<!--    android:fromDegrees="0"-->
+<!--    android:toDegrees="360"-->
+<!--    android:pivotX="50%"-->
+<!--    android:pivotY="50%"-->
+<!--    android:duration="500"-->
+<!--    android:repeatMode="reverse"-->
+<!--    android:repeatCount="1"-->
+<!--    android:startOffset="500"-->
+<!--    />-->
+<!--</set>-->
+
+
+
+
+
+
+
+
+
+
+    <!--Все анимации стартуют единовременно, поэтому нужно выставлять startOffset-->
+
+<!--////  отвечают за проигрование анимации (повтор, количество)-->
+<!--    android:repeatMode="reverse"-->
+<!--    android:repeatCount="3"-->
+
+<!--&lt;!&ndash;Cписок анимаций:&ndash;&gt;-->
+<!--    <?xml version="1.0" encoding="utf-8"?>-->
+<!--<set xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--android:interpolator="@[package:]anim/interpolator_resource"-->
+<!--android:shareInterpolator=["true" | "false"] >-->
+
+
+<!--прозчность-->
+<!--<alpha-->
+<!--android:fromAlpha="float"-->
+<!--android:toAlpha="float" />-->
+
+<!--смена маштаба (растягивать сжимать вьюшки по х и у)-->
+<!--<scale-->
+<!--android:fromXScale="float"-->
+<!--android:toXScale="float"-->
+<!--android:fromYScale="float"-->
+<!--android:toYScale="float"-->
+<!--android:pivotX="float"-->
+<!--android:pivotY="float" />-->
+
+<!--смещение х и у по экрану-->
+<!--<translate-->
+<!--android:fromXDelta="float"-->
+<!--android:toXDelta="float"-->
+<!--android:fromYDelta="float"-->
+<!--android:toYDelta="float" />-->
+
+<!--поворот-->
+<!--<rotate-->
+<!--android:fromDegrees="float"-->
+<!--android:toDegrees="float"-->
+<!--android:pivotX="float"-->
+<!--android:pivotY="float" />-->
+
+<!--набор-->
+<!--    <set>-->
+<!--...-->
+<!--</set>-->
+<!--    </set>-->
